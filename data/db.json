@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "ikigaiii",
+      "author": "hector",
+      "price": 150
+    },
+    {
+      "id": "2",
+      "title": "Harry Potter",
+      "author": "J.K.Rowling",
+      "price": 400
+    },
+    {
+      "id": "3",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 200
+    },
+    {
+      "id": "123",
+      "title": "vedant",
+      "author": "jadhav",
+      "price": "200"
+    },
+    {
+      "id": "34",
+      "title": "rdx",
+      "author": "emr",
+      "price": "200"
+    }
+  ]
+}

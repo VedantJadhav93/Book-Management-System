@@ -1,0 +1,94 @@
+#book-container{
+    height: 10vh;
+    width: 70vw;
+    background-color: #5AB2FF;
+
+    margin: 9px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
+
+#book-container:hover{
+    transform: scale(1.01);
+    background-color: #5BBCFF;
+}
+
+.book-data{
+    padding: 5px;
+    
+    background-color: #A0DEFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 17px;
+
+    height: 45%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+#id{
+    width: 4%;
+}
+
+#title{
+    width: 25%;
+}
+
+#author{
+    width: 20%;
+}
+
+#price{
+    width: 8%;
+}
+
+#remove-btn{
+    background-color: #F5DD61;
+    border: none;
+    border-radius: 8px;
+    
+    height: 40%;
+}
+
+#remove-btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#update-btn {
+    background-color: wheat;
+    height: 40%;
+    border: none;
+    border-radius: 8px;
+}
+
+#update-btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.input-data{
+    height: 45%;
+    border: none;
+    font-family: "Outfit", sans-serif;
+}
+
+#input-data1{
+    width: 4%;
+}
+#input-data2{
+    width: 25%;
+}
+
+#input-data3{
+    width: 20%;
+}
+
+#input-data4{
+    width: 8%;
+}
